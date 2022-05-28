@@ -1,0 +1,317 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+/*  border: 2px solid red;*/
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #354657
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container {
+  padding: 1rem 3rem;
+}
+
+.small-container {
+  padding: 2% 10%;
+}
+
+header > * {
+  float: left;
+}
+
+header h2 {
+  width: 15%;
+}
+
+nav {
+  width: 70%;
+}
+
+nav {
+  position: relative;
+  top: 0.9rem;
+}
+
+header {
+  position: relative;
+}
+
+header .btn {
+  position: absolute;
+  top: 1.2rem;
+  right: 3rem;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 2%;
+}
+
+.top > * {
+  float: left;
+}
+
+.call {
+  width: 40%;
+}
+
+.top > img {
+  width: 60%;
+}
+
+#toggle,
+label {
+  display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.btn {
+  color: #FFF;
+  background: #354657;
+  padding: 1rem 1.6rem;
+  font-weight: bold;
+}
+
+header {
+  background: #F6F9FC;
+  color: #354657;
+}
+
+a {
+  text-decoration: none;
+  color: #354657;
+}
+
+header h2 {
+  font-size: 3.6rem;
+} 
+
+header a {
+  font-size: 1.8rem;
+}
+
+.top {
+  background: #F6F9FC;
+}
+
+.call {
+  padding: 8% 4% 6% 10%;
+}
+
+.call span {
+  color: darkgray;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.call p,
+.call h1 {
+  padding-right: 17%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+input {
+  font-size: 1.6rem;
+  background: #E2E9EF;
+  padding: 1rem;
+  padding-left: 1.5rem;
+  border: none;
+  width: 75%;
+}
+
+form a {
+  display: inline-block;
+  position: relative;
+  left: -0.25rem;
+}
+
+input,
+form a {
+  margin-bottom: 8%;
+}
+
+.start p,
+.features section > *,
+.call span,
+form a,
+.call p {
+  font-size: 1.6rem;
+}
+
+.call p {
+  line-height: 2rem;
+}
+
+.features {
+  padding-top: 3%;
+}
+
+.features section {
+  float: left;
+  width: 20.5%;
+  margin: 0 3%;
+  padding-top: 6rem;
+}
+
+.features section:first-child {
+  margin-left: 0;
+}
+
+.features section:last-child {
+  margin-right: 0;
+}
+
+.features p {
+  margin: 5% 0;
+}
+
+.features a {
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  font-weight: bold;
+}
+
+#f-one {
+  background: url("../../images/circle-32.png") no-repeat;
+}
+
+#f-two {
+  background: url("../../images/layers-32.png") no-repeat;
+}
+
+#f-three {
+  background: url("../../images/bookmark-32.png") no-repeat;
+}
+
+#f-four {
+  background: url("../../images/water-32.png") no-repeat;
+}
+
+.start h2 {
+  font-size: 5rem;
+  width: 50%;
+  margin-top: 3%;
+}
+
+.start p {
+  margin: 2% 0;
+  width: 50%;
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    border-bottom: 3px solid lightgray;
+  }
+
+  .call,
+  .call p,
+  .call h1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  input,
+  .call,
+  .call p
+  .start,
+  .top img,
+  .start h2,
+  .start p {
+    width: 100%;
+  }
+
+  form a {
+    display: block;
+    text-align: center;
+    position: static;
+  }
+
+  input {
+    margin-bottom: 4%;
+  }
+
+  .call {
+    padding: 0 5%;
+    padding-top: 10%;
+  }
+
+  .call p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .features section {
+    float: left;
+    margin-left: 0;
+    margin-right: 14%;
+    width: 43%;
+  }
+
+  .features section:nth-child(even) {
+    margin-right: 0;
+  }
+
+  header h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav,
+  header a {
+    display: none;
+  }
+
+  label {
+    position: absolute;
+    display: block;
+    top: 20%;
+    font-size: 3rem;
+  }
+
+}
+
+/*Color palette
+#354657
+#334454
+#e2e9ef
+#F6F9FC*/

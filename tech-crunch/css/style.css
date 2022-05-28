@@ -1,0 +1,222 @@
+/* Box Model Hack */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body > section {
+  float:left;
+  width: 57%;
+}
+
+nav {
+  font-size: 2rem;
+  font-weight: lighter;
+  position: fixed;
+}
+
+.fixed-space {
+  float: left;
+  width: 18%;
+  padding-left: 30px;
+  min-width: 205.2px;
+  min-height: 100vh;
+}
+
+main {
+  float: left;
+  width: 62.5%;
+}
+
+aside {
+  float: left;
+  width: 34.5%;
+  margin-left: 3%;
+}
+
+.top-space {
+  margin-top: 30px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* Below main */
+
+h3 {
+  padding-top: 20px;
+  font-size: 2rem;
+  border-bottom: .5px solid #949494;
+  padding-bottom: 1rem;
+}
+
+#below-main section,
+#below-main p,
+#below-main img {
+  float: left;
+  width: 33.33%;
+}
+
+#below-main > * {
+  margin: 0;
+  padding: 20px;
+}
+
+#below-main section:first-child {
+  padding-left: 0;
+}
+
+#below-main img:last-child {
+  padding-right: 0;
+}
+
+#below-main h2 {
+  margin-bottom: 10px;
+}
+
+#below-main p {
+  line-height: 2.3rem;
+}
+
+#author  {
+  display: block;
+  margin-bottom: 7px;
+}
+
+#author + span {
+  color: #949494;
+}
+
+/* aside */
+aside section {
+  border-bottom: .5px solid #949494;
+  padding-bottom: 10px;
+}
+
+aside section:last-child {
+  border: none;
+}
+
+aside h2 {
+  font-size: 2rem;
+  line-height: 2.3rem;
+  margin: 10px 0;
+}
+
+
+/* main */ 
+
+#crunch {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #d59600;
+}
+
+#crunch,
+#call-to-action {
+  letter-spacing: 1px;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+p {
+  color: #949494;
+  font-weight: lighter;
+  margin: 10px 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 4rem;
+}
+
+/* Nav bar */
+#logo {
+  width: 60px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #949494;
+}
+
+#call-to-action {
+  font-weight: 900;
+  color: #f4c044;
+  margin: 18px 0;
+}
+
+#login-button {
+  color: #777;
+  font-weight: normal;
+}
+
+#login-button,
+#call-to-action,
+#crunch {
+  font-size: 1.7rem;
+}
+
+nav a {
+  display: block;
+}
+
+ul {
+  margin-top: 40px;
+}
+
+li {
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+#search {
+  background: url('../../images/magnifying-glass-32.png') 7rem / 2rem no-repeat content-box;
+}
+
+hr {
+  width: 10%;
+  margin: 22.5px 0;
+}

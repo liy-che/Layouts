@@ -1,0 +1,218 @@
+/* Box Model Hack */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav > div {
+  float: left;
+  width: 33.33%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+#logo {
+  height: 100%;
+}
+
+#logo img {
+  width: 3rem;
+  position: relative;
+  top: 8px;
+}
+
+div {
+  margin-top: 0.5rem;
+  height: 100%;
+  text-align: center;
+}
+
+#logo {
+  margin-top: 0.7rem;
+}
+
+#logo img, h2 {
+  display: inline-block;
+}
+
+header {
+  height: 6.2rem;
+  margin-bottom: 3.9rem;
+}
+
+input::placeholder,
+input,
+header a {
+  color: #396AEA;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+input {
+  width: 100%;
+  color: #000;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 3px;
+  padding-right: 3rem;
+  margin-top: .7rem;
+  background: #F0F1F2 url("../../images/magnifying-glass-32.png") 97% 50% / 2rem no-repeat;
+}
+
+form {
+  width: 47%;
+}
+
+nav {
+  position: relative;
+}
+
+nav > ul {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  margin-right: 2rem;
+}
+
+li {
+  margin-right: 3.1rem;
+  list-style: none;
+  float: left;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  border-bottom: 1px solid #E9EAEB;
+  position: relative;
+}
+
+#logo {
+  font-size: 1.5rem;
+}
+
+.navigation > * {
+  float: left;
+}
+
+.navigation a {
+  width: auto;
+  margin-right: 3.5rem;
+  text-align: left;
+  margin-top: 1.6rem;
+  margin-left: 2rem;
+}
+
+header span {
+  font-size: 1rem;
+}
+
+main > * {
+  float: left;
+  width: 50%;
+}
+
+main li {
+  padding: 1rem;
+  background-color: #2b69e9;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  margin-right: 1rem;
+}
+
+main a {
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5.5rem;
+  font-weight: lighter;
+  line-height: 6.5rem;
+}
+
+main p {
+  margin-top: 3rem;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  font-weight: lighter;
+  margin-bottom: 4rem;
+}
+
+main span#placeholder {
+  width: 100%;
+}
+
+main img {
+  max-width: 40%;
+  height: auto;
+  position: absolute; 
+  top: 50%; 
+  left: 16.5%;
+  transform: translate(-16.5%, -50%); 
+}
+
+#right {
+  padding-left: 1rem;
+  position: absolute; 
+  top: 50%; 
+  right: 0;
+  transform: translateY(-50%); 
+}
+
+#right span {
+  border-bottom: 2px solid #6cc9a3;
+}
+
+/*Color palette
+#396AEA
+#F0F1F2
+#E9EAEB
+#2b69e9
+#6cc9a3
+*/

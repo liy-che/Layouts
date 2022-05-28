@@ -1,0 +1,224 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+/*  border: 1px solid red;*/
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header ul,
+header h2 {
+  float: left;
+  width: 33.33%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.btn {
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+
+header {
+  background: #697688;
+  padding: 10px 50px;
+}
+
+header nav {
+  position: relative;
+}
+
+header ul {
+  position: relative;
+  top: 7px;
+}
+
+header h2 {
+  text-align: center;
+}
+
+header a.btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #697688;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+header a {
+  color: #F1F1F1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  background: #697688;
+  text-align: center;
+  padding: 10% 20%;
+}
+
+.text {
+  text-align: center;
+  padding: 5% 30%;
+}
+
+header,
+.home {
+  color: #F1F1F1;
+}
+
+h1, .home p {
+  margin-bottom: 30px;
+}
+
+.home a {
+  color: #F1F1F1;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  padding-left: 40px;
+  background-image: url("../../images/play-32.png");
+}
+
+.col-2 {
+  float: left;
+  width: 50%;
+}
+
+.double * {
+  text-align: center;
+  display: block;
+}
+
+.double {
+  background: #DCDFE2;
+}
+
+.double img {
+  width: 100%;
+}
+
+.double section {
+  padding: 3% 4% 5% 10%;
+}
+
+.double section + section {
+  padding: 3% 10% 5% 4%;
+}
+
+.double h3 {
+  margin: 5% 0;
+}
+
+img {
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.link {
+  display: inline-block;
+  border: 1px solid #182029;
+  color: #182029;
+  padding: 2% 7%;
+  margin-top: 5%;
+}
+
+footer {
+  background: #181F29;
+  color: #F1F1F1;
+  padding: 2% 3%;
+}
+
+footer * {
+  color: #F1F1F1;
+}
+
+footer h6 {
+  color: #697688;
+}
+
+.bottom {
+  border-top: 3px solid #858687;
+  padding-top: 1%;
+  margin-top: 3%;
+}
+
+.bottom span {
+  float: right;
+}
+
+.contact h5 {
+  margin-bottom: 2%;
+}
+
+.contact p {
+  color: #A4A6A9;
+}
+
+.contact {
+  width: auto;
+  float: right;
+}
+
+.sitemap section:first-of-type,
+.sitemap img {
+  margin-bottom: .5%;
+}
+
+.sitemap img {
+  display: inline-block;
+  padding: 0;
+  height: 20px;
+  margin-right: 2%;
+}
+
+.top {
+  margin-top: 1%;
+}
+
+.first {
+  margin-right: 3%;
+}
+
+/*color palette
+blue gray #697688
+gray brackground #DCDFE2
+footer background #181F29
+font F1F1F1
+dark font #182029*/
