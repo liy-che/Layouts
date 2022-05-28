@@ -3,11 +3,11 @@
 A collection of website layouts made in HTML and CSS for #100devs with :blue_heart:
 
 ## Included Layouts
-- [BBC News](#bbc-news)
-- [Khan Academy](#khan-academy)
-- [Level Ground](#level-ground)
-- [Source](#source)
-- [TechCrunch](#techcrunch)
+- [BBC News](#bbc-news-original)
+- [Khan Academy](#khan-academy-original)
+- [Level Ground](#level-ground-original)
+- [Source](#source-original)
+- [TechCrunch](#techcrunch-original)
 
 ## Preview
 
