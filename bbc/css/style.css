@@ -84,7 +84,7 @@ input {
   padding: 5px;
   padding-right: 20px;
   color: #000;
-  background: #fff url('../../images/search-32.png') 97% 50% / 7% no-repeat;
+  background: #fff url('../images/search-32.png') 97% 50% / 7% no-repeat;
   border: none;
 }
 
@@ -136,7 +136,7 @@ a {
 
 #signin {
   padding-left: 25px;
-  background: url('../../images/user-32.png') 0% 50% / 25% no-repeat;
+  background: url('../images/user-32.png') 0% 50% / 25% no-repeat;
 }
 
 #arrow {
@@ -214,9 +214,9 @@ main h4,
 
 #main-story {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../../images/israel.jpg') top left / contain no-repeat; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/israel.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/israel.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../images/israel.jpg') top left / contain no-repeat; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/israel.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/israel.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
   position: relative;
 }
@@ -234,33 +234,33 @@ main h4,
 
 #sub-story > section:nth-child(1) {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../../images/americans.jpg') top left / contain no-repeat; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/americans.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/americans.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../images/americans.jpg') top left / contain no-repeat; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/americans.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/americans.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 }
 
 #sub-story > section:nth-child(2) {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../../images/vaccine.jpg') top left / contain no-repeat; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/vaccine.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/vaccine.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../images/vaccine.jpg') top left / contain no-repeat; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/vaccine.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/vaccine.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 }
 
 #sub-story > section:nth-child(3) {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../../images/online.jpg') top left / contain no-repeat; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/online.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/online.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../images/online.jpg') top left / contain no-repeat; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/online.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/online.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 }
 
 #sub-story > section:nth-child(4) {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../../images/singer.jpg') top left / contain no-repeat; /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/singer.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../../images/singer.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 30%, rgba(0,0,0,0.65) 100%), url('../images/singer.jpg') top left / contain no-repeat; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/singer.jpg') top left / contain no-repeat; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%), url('../images/singer.jpg') top left / contain no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
 }
 

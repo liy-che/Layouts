@@ -212,19 +212,19 @@ form a,
 }
 
 #f-one {
-  background: url("../../images/circle-32.png") no-repeat;
+  background: url("../images/circle-32.png") no-repeat;
 }
 
 #f-two {
-  background: url("../../images/layers-32.png") no-repeat;
+  background: url("../images/layers-32.png") no-repeat;
 }
 
 #f-three {
-  background: url("../../images/bookmark-32.png") no-repeat;
+  background: url("../images/bookmark-32.png") no-repeat;
 }
 
 #f-four {
-  background: url("../../images/water-32.png") no-repeat;
+  background: url("../images/water-32.png") no-repeat;
 }
 
 .start h2 {

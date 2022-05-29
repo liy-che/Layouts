@@ -94,7 +94,7 @@ input {
   border-radius: 3px;
   padding-right: 3rem;
   margin-top: .7rem;
-  background: #F0F1F2 url("../../images/magnifying-glass-32.png") 97% 50% / 2rem no-repeat;
+  background: #F0F1F2 url("../images/magnifying-glass-32.png") 97% 50% / 2rem no-repeat;
 }
 
 form {
